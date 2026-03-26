@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+<form action="http://localhost:3000/api/submit-cat" target="_blank" method="POST">
+<label for="catName">Cat Name</label>
+<input id="catName" name="catName" type="text">
+<input type="submit" value="Submit">
+</form>
+<script src="index.js"></script>
+</body>
+</html>
